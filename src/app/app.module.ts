@@ -20,16 +20,16 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AddEditDepartmentComponent,
     EmployeeComponent,
     ShowEmployeeComponent,
-    AddEditEmployeeComponent
+    AddEditEmployeeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [ApiserviceService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
